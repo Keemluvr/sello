@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+:root {
+    /* Palheta */
+    --primary-color: #C7C7C7; 
+    --secondary-color: #DBDBDB; 
+    --third-color: #FF2600; 
+    --fourth-color: #222222; 
+
+    /* Tipografia */
+    --poppins: 'Poppins', sans-serif;
+    --small-font: 16px;
+    --medium-font: 24px;
+}
