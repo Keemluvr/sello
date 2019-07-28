@@ -1,9 +1,11 @@
 @import url('../css/index.css');
 
+/*
+
 body {
     background-color: var(--fifth-color);
 }
-
+*/
 .navbar {
     padding: 1.0em 1rem !important;
     font-family: var(--poppins);
@@ -23,7 +25,7 @@ body {
 .nav-link {
     color: var(--primary-color) !important;
     font-size: var(--small-font);
-    font-weight: 300;
+    font-family: var(--poppins-light);
     margin: 0px 8px 0px 8px;
     padding-bottom: 0px;
 }
