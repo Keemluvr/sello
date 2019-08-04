@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap&subset=devanagari,latin-ext');
 
 :root {
-    /* Palheta */
     --primary-color: #C7C7C7; 
     --secondary-color: #DBDBDB; 
     --third-color: #FF2600; 
     --fourth-color: #222222; 
     --fifth-color: #EFEFEF;
+    --sixth-color: #707070;
 
-    /* Tipografia */
     --poppins: 'Poppins', sans-serif;
+    --poppins-light: 'Poppins Light', sans-serif;
+    --poppins-bold: 'Poppins Bold', sans-serif;
+    --poppins-black: 'Poppins Black', sans-serif;
     --small-font: 16px;
     --medium-font: 24px;
 }

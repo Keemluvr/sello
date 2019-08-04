@@ -1,0 +1,103 @@
+@import url('../css/index.css');
+
+.introduction {
+    background-color: var(--fifth-color);
+    width: 100vw;
+    height: 701px;
+}
+
+.content-intro {
+    padding-top: 174px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: var(--poppins-black);
+    color: var(--fourth-color);
+}
+
+.title-description {
+    font-size: var(--small-font);
+    font-weight: 300;
+    font-family: var(--poppins-light);
+    color: var(--fourth-color);
+    max-width: 730px;
+}
+
+.shop-link:after {
+    content: '';
+    display: block;
+    margin: -10px;
+    height: 10px;
+    width: 95px;
+    background: red;
+    opacity: 0.1;
+    transition: all 0.5s;
+}
+
+.shop-link a {
+    text-transform: uppercase;
+    color: var(--fourth-color) !important;
+    font-family: var(--poppins-light) !important;
+}
+
+
+.shop-link:hover:after {
+    margin-top: -23px;
+}
+
+.page-orientation {
+    position: relative;
+    display: inline-block;
+    right: 30%;
+    transform: rotate(-90deg);
+    top: 50%;
+}
+
+.page-orientation .number-orientation {
+    display: inline-block;
+    font-size: var(--medium-font);
+    font-family: var(--poppins-light);
+    color: var(--sixth-color);
+    opacity: 0.6;
+}
+
+.page-orientation .line {
+    display: inline-block;
+    width: 150px;
+    height: 1.6px;
+    margin: 0px 30.5px 8px 9.5px;
+    background-color: var(--sixth-color);
+    opacity: 0.6;
+}
+
+.page-orientation .name-orientation {
+    display: inline-block;
+    font-size: var(--medium-font);
+    text-transform: uppercase;
+    font-family: var(--poppins-black);
+}
+
+.introduction-img img{
+    position: absolute;
+    display: inline-block;
+    width: 800px;
+    height: 738px;
+    top: 0px;
+    left: 57%;
+    object-fit: cover;
+    object-position: left;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1223px) {
+    .introduction-img {
+        display: none;
+    }
+
+    .page-orientation { 
+        display: none;
+    }
+}
+

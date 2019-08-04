@@ -1,17 +1,10 @@
 @import url('../css/index.css');
 
-/*
-
-body {
-    background-color: var(--fifth-color);
-}
-*/
 .navbar {
     padding: 1.0em 1rem !important;
     font-family: var(--poppins);
 }
 
-/* Logo */
 .navbar-brand {
     margin-left: 3px;
 }
@@ -21,7 +14,6 @@ body {
     margin-bottom: 8px !important;
 }
 
-/* Menu com os links*/
 .nav-link {
     color: var(--primary-color) !important;
     font-size: var(--small-font);
@@ -35,12 +27,10 @@ body {
     transition: .5s ease;
 }
 
-/* link que referencia a página atual */
 .selected-link {
     color: var(--fourth-color) !important;
 }
 
-/* Efeito do link */
 .nav-link:after {
     content: '';
     display: block;
@@ -51,27 +41,23 @@ body {
     transition: width .5s ease, background-color .5s ease;
 }
 
-/* Efeito que aparece abaixo do link passando o mouse */
 .nav-link:hover:after {
     width: 100%;
     color: var(--fourth-color) !important;
     background: var(--fourth-color);
 }
 
-/* Efeito que aparece sem precisar passar o mouse */
 .selected-link:after {
     width: 100%;
     color: var(--fourth-color) !important;
     background: var(--fourth-color);
 }
 
-/* Tablet e Mobile*/
 @media only screen and (max-width: 991px) {
     .navbar-nav {
         margin-left: 0px !important;
     }
 
-    /* sem efeito em baixo*/
     .nav-link:hover:after {
         width: 0% !important;
     }
